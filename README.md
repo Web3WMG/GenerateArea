@@ -7,7 +7,7 @@
 GenerateArea is a hosting account and support management system especially designed to work with MOFH (MyOwnFreeHost). GenerateArea currently has a limited number of features which are listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
-[![AppVeyor](https://img.shields.io/badge/Version-v1.2.8-informational)](https://github.com/mahtab2003/Xera/releases/latest)
+[![AppVeyor](https://img.shields.io/badge/Version-Coming_Soon-informational)](https://github.com/mahtab2003/Xera/releases/latest)
 ![AppVeyor](https://img.shields.io/badge/Build-Passed-brightgreen)
 ![AppVeyor](https://img.shields.io/badge/Interface-Tabler-lightgreen)
 ![AppVeyor](https://img.shields.io/badge/Development-Paused-inactive)
