@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/default/img/xera.png">
+    <img src="assets/default/img/logo.png">
 </div>
 
 
