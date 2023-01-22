@@ -4,22 +4,7 @@
 			<?= $this->base->text($title, 'title') ?>
 		</h2>
 	</div>
-	<div class="card mb-3">
-		<div class="card-header">
-			<div class="card-title"><?= $this->base->text('your_name', 'label') ?></div>
-		</div>
-		<div class="card-body">
-			<?= form_open('u/settings') ?>
-				<div class="row">
-					<div class="col-sm-12">
-						<label class="form-label"><?= $this->base->text('your_name', 'label') ?></label>
-						<input type="text" name="name" placeholder="<?= $this->base->text('your_name', 'label') ?>" class="form-control mb-2" value="<?= $this->user->get_name() ?>">
-						<input type="submit" name="update_name" value="<?= $this->base->text('change', 'button') ?>" class="btn btn-primary btn-pill">
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
+	
 	<div class="card mb-3">
 		<div class="card-header">
 			<div class="card-title"><?= $this->base->text('interface', 'heading') ?></div>
@@ -80,4 +65,5 @@
 			</form>
 		</div>
 	</div>
+	
 </div>

@@ -62,7 +62,7 @@ class U extends CI_Controller
 					}
 					if($this->fv->run() === true)
 					{
-						$name = $this->input->post('name');
+						$name = "AREA_" . random_int(100000, 999999);
 						$email = $this->input->post('email');
 						$password = $this->input->post('password');
 						if($this->grc->get_type() == "google")
@@ -125,7 +125,7 @@ class U extends CI_Controller
 				{
 					if($this->fv->run() === true)
 					{
-						$name = $this->input->post('name');
+						$name = "AREA_" . random_int(100000, 999999);
 						$email = $this->input->post('email');
 						$password = $this->input->post('password');
 						if(!$this->user->is_register($email))

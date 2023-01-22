@@ -2,10 +2,6 @@
 <div class="card-body">
 	<h2 class="card-title text-center mb-3"><?= $this->base->text('create_an_account', 'heading') ?></h2>
 	<div class="mb-2">
-		<label class="form-label"><?= $this->base->text('your_name', 'label') ?></label>
-		<input type="text" name="name" class="form-control" placeholder="<?= $this->base->text('your_name', 'label') ?>">
-	</div>
-	<div class="mb-2">
 		<label class="form-label"><?= $this->base->text('email_address', 'label') ?></label>
 		<input type="email" name="email" class="form-control" placeholder="<?= $this->base->text('email_address', 'label') ?>">
 	</div>
