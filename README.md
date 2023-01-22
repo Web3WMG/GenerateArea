@@ -7,10 +7,10 @@
 GenerateArea is a hosting account and support management system especially designed to work with MOFH (MyOwnFreeHost). GenerateArea currently has a limited number of features which are listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
-[![AppVeyor](https://img.shields.io/badge/Version-Coming_Soon-informational)](https://github.com/mahtab2003/Xera/releases/latest)
+[![AppVeyor](https://img.shields.io/badge/Version-v0.1.0-informational)](https://github.com/mahtab2003/Xera/releases/latest)
 ![AppVeyor](https://img.shields.io/badge/Build-Passed-brightgreen)
 ![AppVeyor](https://img.shields.io/badge/Interface-Tabler-lightgreen)
-![AppVeyor](https://img.shields.io/badge/Development-Paused-inactive)
+![AppVeyor](https://img.shields.io/badge/Development-In_Progress-inactive)
 ![AppVeyor](https://img.shields.io/badge/Dependencies-PHP,_MySQL,_cUrl-red)
 
 ### 🎮 Features
@@ -25,6 +25,7 @@ GenerateArea is a hosting account and support management system especially desig
 	- hCaptcha
 	- GoGetSSL
 	- SitePro
+	- Wayback Machine
 	- SMTP
 - Update Manager
 - Multi-lingual
@@ -51,16 +52,17 @@ The installation of GenerateArea is much easier than you think!
 - All done! 
 
 ### 📧 SMTP
-Here are some widely used SMTP services. They have free plans with some limitations, most importantly though, they are compatible with Xera.
+Here are some widely used SMTP services. They have free plans with some limitations, most importantly though, they are compatible with GenerateArea.
 - [Mailgun](https://www.mailgun.com/). 
 > **Note**  
 > Mailgun seems to offer only a trial plan for a month, and without adding a credit card you are only authorized to send emails to 5 recipients. Therefore, you may want to choose another service.
 - [Mailjet](https://mailjet.com/).
 - [SendGrid](https://sendgrid.com/free/).
+You can also use Gmail SMTP.
 
 ### 🤔 Help
 If you require assistance, please proceed to [our forum](https://fourm.xera.eu.org/), where you can find the answers to many questions and also ask your own.  
-You can also [open an issue here](https://github.com/mahtab2003/Xera/issues/new) if you have discovered a bug or have an issue, although the forum is still the preferred way, especially for feature requests. In any way, please ensure your topic has not been previously discussed, and if it has contribute to that discussion instead of making a new one when you can.
+You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/issues/new) if you have discovered a bug or have an issue, although the forum is still the preferred way, especially for feature requests. In any way, please ensure your topic has not been previously discussed, and if it has contribute to that discussion instead of making a new one when you can.
 
 
 ## ©️ Copyright
