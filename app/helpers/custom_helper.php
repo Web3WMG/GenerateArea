@@ -86,6 +86,12 @@ if (!function_exists('get_templates')) {
 		return $templates;
 	}
 }
+if (!function_exists('get_name')) {
+	function get_name()
+	{
+		return "GenerateArea";
+	}
+}
 
 if (!function_exists('get_version')) {
 	function get_version()

@@ -53,6 +53,9 @@
 									<div class="mb-2">
 										<input type="text" name="domain" class="form-control" placeholder="<?= $this->base->text('domain_name', 'label') ?>">
 									</div>
+									<div class="alert alert-success" role="alert">
+                                    To host your domain with us, please set your nameservers to <?= $this->mofh->get_ns_1(); ?> & <?= $this->mofh->get_ns_2(); ?> in your domain registar.
+                                    </div>
 									<div class="mb-2 d-grid">
 										<input type="submit" name="check_domain" class="btn btn-primary" value="<?= $this->base->text('check_availibilty', 'button') ?>">
 									</div>

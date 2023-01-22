@@ -1,11 +1,11 @@
-<nav class="navbar navbar-expand-md navbar-light d-print-none">
+<nav class="navbar navbar-expand-md navbar-dark d-print-none">
 	<div class="container-xl">
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
 			<a href="<?= base_url() ?>">
-				<img src="<?= base_url() ?>assets/<?= $this->base->get_template() ?>/img/logo.png" width="110" height="32" alt="Logo" class="navbar-brand-image">
+				<img src="<?= base_url() ?>assets/<?= $this->base->get_template() ?>/img/logo.png" style="filter: brightness(0) invert(1);" width="110" height="32" alt="Logo" class="navbar-brand-image">
 			</a>
 		</h1>
 		<div class="navbar-nav flex-row order-md-last">
@@ -19,7 +19,7 @@
 					<span class="avatar avatar-sm" style="background-image: url(<?= $this->user->get_avatar() ?>);"></span>
 					<div class="d-none d-xl-block ps-2">
 						<div><?= $this->user->get_name() ?></div>
-						<div class="mt-1 small text-muted">@<?= $this->user->get_uid() ?></div>
+						<div class="mt-1 small text-muted"><?= $this->user->get_email() ?></div>
 					</div>
 				</a>
 				<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -44,6 +44,18 @@
 							</span>
 							<span class="nav-link-title">
 								<?= $this->base->text('home', 'heading') ?>
+							</span>
+						</a>
+					</li>
+					<li class="nav-item <?php if (isset($active) and $active == 'profile') : ?>
+						active
+					<?php endif ?>">
+						<a class="nav-link" href="<?= base_url() ?>u/settings">
+							<span class="nav-link-icon d-md-none d-lg-inline-block">
+								<i class="fa fa-user"></i>
+							</span>
+							<span class="nav-link-title">
+								<?= $this->base->text('profile', 'heading') ?>
 							</span>
 						</a>
 					</li>

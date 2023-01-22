@@ -340,6 +340,7 @@
 													<?php if ($this->sp->is_active()) : ?>
 														<a href="<?= base_url() . 'u/view_account/' . $data['account_username'] . '/?builder=true&domain=' . $domain['domain'] ?>" class="btn btn-red btn-sm rounded col" target="_blank"><em class="fa fa-upload"></em></a>
 													<?php endif ?>
+													<a href="https://web.archive.org/web/*/<?= $domain['domain'] ?>" class="btn btn-sm rounded btn-red col me-2" target="_blank"><em class="fa fa-timer"></em></a>
 												</td>
 											</tr>
 										<?php endforeach ?>

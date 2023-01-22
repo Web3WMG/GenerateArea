@@ -1426,7 +1426,7 @@ class U extends CI_Controller
 		{
 			if($this->input->post('create'))
 			{
-				$this->fv->set_rules('csr', $this->base->text('csr_code', 'label'), ['trim', 'required']);
+				$this->fv->set_rules('dname', $this->base->text('csr_code', 'label'), ['trim', 'required']);
 				if($this->grc->is_active())
 				{
 					if($this->grc->get_type() == "google")

@@ -6,12 +6,11 @@
 	</div>
 	<div class="card p-2 mb-3">
 		<div class="card-body">
-		<p> You can generate CSR and Private key from <a href="https://www.gogetssl.com/online-csr-generator/">Online CSR Generator</a>
 			<?= form_open('u/create_ssl') ?>
 				<div class="row">
 					<div class="col-sm-12 mb-2">
-						<label class="form-label"><?= $this->base->text('csr_code', 'label') ?></label>
-						<textarea class="form-control" name="csr" placeholder="<?= $this->base->text('csr_code', 'label') ?>" style="min-height: 250px;"></textarea>
+						<label class="form-label"><?= $this->base->text('domain', 'label') ?></label>
+						<input type="text" class="form-control" name="dname">
 					</div>
 					<?php if($this->grc->is_active()):?>
 						<div class="mb-2">
