@@ -29,7 +29,7 @@
 			<?php if ($this->input->get('domain')): ?>
 				<?php if (validateDomain($this->input->get('domain'))): ?>
 					<div>
-						<pre class="mb-0"><?= trim(lookUpDomain($this->input->get('domain'))) ?></pre>
+						<pre class="mb-0"><?= trim(lookUpDomain(htmlspecialchars($this->input->get('domain')))) ?></pre>
 					</div>
 				<?php else: ?>
 					<div class="card-body">
