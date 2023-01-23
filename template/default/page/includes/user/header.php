@@ -10,5 +10,5 @@
 	<link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/<?= $this->base->get_template() ?>/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/<?= $this->base->get_template() ?>/css/style.css">
 </head>
-<body class="theme-<?= get_cookie('theme', true)?>">
+<body class="theme-<?= htmlspecialchars(get_cookie('theme', true))?>">
 	<div class="page">
