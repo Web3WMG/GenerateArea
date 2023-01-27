@@ -3,8 +3,8 @@
 </div>
 
 
-## 👀 What is GenerateArea ?
-GenerateArea is a hosting account and support management system especially designed to work with MOFH (MyOwnFreeHost). GenerateArea currently has a limited number of features which are listed below:
+## 👀 What is GenerateArea?
+GenerateArea is a easy-to-use hosting account and support management system for MOFH (MyOwnFreeHost). GenerateArea currently has a limited number of features which are listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
 [![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
@@ -43,7 +43,7 @@ The installation of GenerateArea is much easier than you think!
 - Download the GenerateArea installation files [here](https://github.com/GenerateTerminal/GenerateArea/releases/latest). Alternatively, if you want the latest development version you can get it [here](https://github.com/mahtab2003/Xera/archive/refs/heads/dev.zip).
 - Extract the file and upload the contents to your web hosting account. 
 - Create a new database for GenerateArea.
-- Go to ```https://{your.domain}/{xera-directory}/install.php``` and click on the 'Get Started' button.
+- Go to ```https://{your.domain}/{garea-directory}/install.php``` and click on the 'Get Started' button.
 - Set your website's ```Website URL```, ```Cookie Prefix```, enable ```CSRF Protection``` and hit the 'Next Step' button.
 - Edit the database credentials and click on the 'Next Step' button (this will automatically import tables and records to the database).
 - Register an admin account and login to your admin panel. 
@@ -65,4 +65,4 @@ You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/i
 
 ## ©️ Copyright
 This build is created and maintained by [ChippyTech](https://github.com/chippytech). Code released under [the GPL-2.0 license](LICENSE).
-Fork of a client area called [Xera](https://github.com/mahtab2003/Xera).
+Fork of a client area of [Xera](https://github.com/mahtab2003/Xera).
