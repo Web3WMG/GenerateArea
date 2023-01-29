@@ -33,7 +33,7 @@ GenerateArea is a easy-to-use hosting account and support management system for 
 ## 🤸 Getting Started
 
 ### 🚅 Requirements
-Your server needs to meet the following minimum requirements to run GenerateTerminal:
+Your server needs to meet the following minimum requirements to run GenerateArea:
 - PHP v7.2 or above. (PHP 8.0 & 8.1 is not supported currently)
 - MySQL v5.7 or above.
 - A valid, trusted SSL certificate.
