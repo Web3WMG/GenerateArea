@@ -4,7 +4,7 @@
 
 
 ## 👀 What is GenerateArea?
-GenerateArea is a easy-to-use hosting account and support management system for MOFH (MyOwnFreeHost). GenerateArea currently has a limited number of features which are listed below:
+GenerateArea is a easy-to-use hosting account and support management system for MOFH (MyOwnFreeHost) & part of the GenerateApps suite. It also serves as a free alternavite to WHMCS. GenerateArea currently has a limited number of features which are listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
 [![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
