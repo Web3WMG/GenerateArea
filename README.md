@@ -4,7 +4,7 @@
 
 
 ## 👀 What is GenerateArea?
-GenerateArea is a easy-to-use hosting account and support management system for MyOwnFreeHost. It also serves as a free alternavite to WHMCS. GenerateArea currently has a limited number of features which are listed below:
+GenerateArea is a easy-to-use hosting account and support management system for MyOwnFreeHost. GenerateArea currently has a limited number of features which are listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
 [![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
@@ -29,8 +29,8 @@ GenerateArea is a easy-to-use hosting account and support management system for 
 
 ### 🚅 Requirements
 Your server needs to meet the following minimum requirements to run GenerateArea:
-- PHP v7.2 or above. (PHP 8.0 & 8.1 is not supported currently)
-- MySQL v5.7 or above.
+- PHP 7.2 or above. (PHP 8.0 & 8.1 is not supported currently)
+- MySQL 5.7 or above.
 - A valid, trusted SSL certificate.
 
 ### 💾 Installation 
