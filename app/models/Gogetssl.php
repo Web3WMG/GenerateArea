@@ -10,8 +10,38 @@ class Gogetssl extends CI_Model
 		$this->s->auth($this->get_username(), $this->get_password());
 	}
 
-	function create_ssl($csr)
+	function create_ssl($dname)
 	{
+
+        $subject = array(
+            "commonName" => $dname,
+            "organizationName" => "Website",
+        
+            "stateOrProvinceName" => "Earth",
+            "countryName" => "US",
+        );
+ 
+        // Generate a new private (and public) key pair
+        $privatekey_data = openssl_pkey_new(array('private_key_type'=>OPENSSL_KEYTYPE_EC,'curve_name'=>secp384r1) );
+        $csr_data = openssl_csr_new($subject, $privatekey_data, array('digest_alg'=>'sha384') );
+
+        openssl_csr_export($csr_data, $csr);
+        openssl_pkey_export($privatekey_data, $privatekey);
+
+        
+        $encryptionkey = "heyyy";
+        $cipher = "aes-256-gcm";
+        if (in_array($cipher, openssl_get_cipher_methods()))
+        {
+        $ivlen = "watch out!";
+        $iv = "what are you doing, read the rest!";
+        $privatekey_encrpyted = base64_encode(openssl_encrypt($privatekey, $cipher, $encryptionkey, $options=0, $iv, $encrypttag));
+        //store $cipher, $iv, and $tag for decryption later
+       // $original_plaintext = openssl_decrypt($ciphertext, $cipher, $key, $options=0, $iv, $tag);
+        }
+     
+
+
 		$data = array(
 			'product_id'       => 65,
 			'csr' 			   => $csr,
@@ -19,12 +49,12 @@ class Gogetssl extends CI_Model
 		    'period'           => 3,
 		    'approver_email'   => $this->get_username(),
 		    'webserver_type'   => "1",
-		    'admin_firstname'  => 'Web',
+		    'admin_firstname'  => 'Spook',
 		    'admin_lastname'   => 'Host',
 		    'admin_phone'      => '03000000000',
 		    'admin_title'      => "Mr",
 		    'admin_email'      => $this->user->get_email(),
-		    'tech_firstname'   => 'Web',
+		    'tech_firstname'   => 'Spook',
 		    'tech_lastname'    => 'Host',
 		    'tech_phone'       => '03000000000',
 		    'tech_title'       => "Mr",
@@ -40,15 +70,27 @@ class Gogetssl extends CI_Model
 		    'dcv_method'       => "dns",
 		);
 		$res = $this->s->addSSLOrder($data);
+
+       
+
+
+        $encrypttag = base64_encode($encrypttag);
 		if(count($res) > 4)
 		{
 			$key = $username = char8($this->base->get_hostname().':'.$this->user->get_email().':'.$res['order_id'].':'.time());
 			$data = [
 				'ssl_pid' => $res['order_id'],
 				'ssl_key' => $key,
-				'ssl_for' => $this->user->get_key()
+				'ssl_for' => $this->user->get_key(),
+				'ssl_privatekey' => $privatekey_encrpyted,
+                'ssl_tag' => $encrypttag
 			];
+
+            
+
+
 			$res = $this->db->insert('is_ssl', $data);
+           
 			if($res !== false)
 			{
 				return true;
@@ -109,7 +151,7 @@ class Gogetssl extends CI_Model
 		return false;
 	}
 
-	function get_ssl_list_all($count = 0)
+	function get_ssl_list_all()
 	{
 		$res = $this->fetch();
 		if($res !== false)
@@ -124,45 +166,7 @@ class Gogetssl extends CI_Model
 				}
 				return $arr;
 			}
-			$list = [];
-			if($count == 0)
-			{
-				$count = 0;
-			}
-			else
-			{
-				$count = $count * $this->base->rpp();
-			}
-			for ($i = $count; $i < count($arr); $i++) { 
-				if($i >= $count + $this->base->rpp())
-				{
-					break;
-				}
-				else
-				{
-					$list[] = $arr[$i];
-				}
-			}
-			return $list;
-		}
-		return false;
-	}
-
-	function list_count()
-	{
-		$res = $this->fetch();
-		if($res !== false)
-		{
-			$arr = [];
-			if(count($res)>0)
-			{
-				foreach ($res as $key) {
-					$data = $this->s->getOrderStatus($key['ssl_pid']);
-					$data['key'] = $key['ssl_key'];
-					$arr[] = $data;
-				}
-			}
-			return count($arr);
+			return $arr;
 		}
 		return false;
 	}
