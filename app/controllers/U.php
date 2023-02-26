@@ -42,7 +42,6 @@ class U extends CI_Controller
 		{
 			if($this->input->post('register'))
 			{
-				$this->fv->set_rules('name', $this->base->text('your_name', 'label'), ['trim', 'required', 'valid_name']);
 				$this->fv->set_rules('email', $this->base->text('email_address', 'label'), ['trim', 'required', 'valid_email']);
 				$this->fv->set_rules('password', $this->base->text('password', 'label'), ['trim', 'required']);
 				$this->fv->set_rules('password1', $this->base->text('confirm_password', 'label'), ['trim', 'required','matches[password]']);
