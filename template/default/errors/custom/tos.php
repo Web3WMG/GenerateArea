@@ -564,7 +564,7 @@
 				</div>
 			</div>
 			<p class="text-muted text-center py-2">
-				&copy; Copyright <?= date('Y') ?>. Powered by NxNetwork Ltd.
+				&copy; Copyright <?= date('Y') ?>. Powered by GenerateApps.
 			</p>
 		</div>
 	</div>

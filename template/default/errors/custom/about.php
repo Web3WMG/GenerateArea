@@ -17,7 +17,7 @@
 				<div class="empty-header"><img src="<?= base_url() ?>assets/<?= $this->base->get_template() ?>/img/xera.png" class="img-fluid" alt="Xera logo"></div>
 				<p class="empty-title">v<?= get_version() ?> <?= get_tag() ?></p>
 				<p class="empty-subtitle text-muted">
-					&copy; Copyright <?= date('Y') ?>. Powered by NxNetwork Ltd.
+					&copy; Copyright <?= date('Y') ?>. Powered by GenerateApps.
 				</p>
 			</div>
 		</div>

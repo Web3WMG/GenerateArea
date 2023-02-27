@@ -15,13 +15,13 @@ $base_path = str_replace('2', '', $base_path);
 $base_path = str_replace('3', '', $base_path);
 $base_url = $protocol . $hostname . $base_path;
 if (isset($_GET['step']) and $_GET['step'] == 1) {
-	$title = 'Basic Settings - Xera Installation';
+	$title = 'Basic Settings - GenerateArea Installation';
 } elseif (isset($_GET['step']) and $_GET['step'] == 2) {
-	$title = 'Database Settings - Xera Installation';
+	$title = 'Database Settings - GenerateArea Installation';
 } elseif (isset($_GET['step']) and $_GET['step'] == 3) {
-	$title = 'Next Step - Xera Installation';
+	$title = 'Almost Done - GenerateArea Installation';
 } else {
-	$title = 'Welcome to Xera Installation Page';
+	$title = 'Welcome - GenerateArea Installation';
 }
 ?>
 <!DOCTYPE html>
@@ -86,7 +86,7 @@ if (isset($_GET['step']) and $_GET['step'] == 1) {
 							</div>
 							<div class="mb-3">
 								<label class="form-label">Database</label>
-								<input required type="text" name="database" class="form-control" placeholder="xera">
+								<input required type="text" name="database" class="form-control" placeholder="GenerateArea">
 							</div>
 							<div class="form-footer mt-1">
 								<input type="submit" name="submit" value="Next Step" class="btn btn-primary w-100">
@@ -95,16 +95,16 @@ if (isset($_GET['step']) and $_GET['step'] == 1) {
 					</form>
 				<?php elseif (isset($_GET['step']) and $_GET['step'] == 3) : ?>
 					<div class="card-body">
-						<h2 class="card-title text-center mb-3">Welcome to Xera!</h2>
-						<p class="text-muted mb-3">Xera has been installed successfully! Once you click on the button below, you will be redirected to the admin registration page and the install.php file will be deleted automatically.</p>
+						<h2 class="card-title text-center mb-3">Welcome to GenerateArea!</h2>
+						<p class="text-muted mb-3">GenerateArea has been installed successfully! Once you click on the button below, you will be redirected to the admin registration page and the install.php file will be deleted automatically.</p>
 						<div class="form-footer mt-1">
 							<a href="<?= $base_url ?>a/register" class="btn btn-primary w-100">Redirect</a>
 						</div>
 					</div>
 				<?php else : ?>
 					<div class="card-body">
-						<h2 class="card-title text-center mb-3">Welcome to Xera!</h2>
-						<p class="text-muted mb-3">Xera is a hosting account and support management system especially designed to work with MyOwnFreeHost and the GoGetSSL API. Please click on the button below to continue the installation.</p>
+						<h2 class="card-title text-center mb-3">Welcome to GenerateArea!</h2>
+						<p class="text-muted mb-3">GenerateArea is a hosting account and support management system especially designed to work with MyOwnFreeHost and the GoGetSSL API. Please click on the button below to continue the installation.</p>
 						<div class="form-footer mt-1">
 							<a href="<?= $base_url ?>install.php?step=1" class="btn btn-primary w-100">Get Started</a>
 						</div>
@@ -112,7 +112,7 @@ if (isset($_GET['step']) and $_GET['step'] == 1) {
 				<?php endif ?>
 			</div>
 			<div class="text-center text-muted mt-3">
-				&copy; Copyright <?= date('Y') ?>. Powered by NxNetwork Ltd.
+				&copy; Copyright <?= date('Y') ?>. Powered by GenerateApps.
 			</div>
 		</div>
 	</div>
@@ -144,7 +144,7 @@ if (isset($_GET['step']) and $_GET['step'] == 1 and isset($_POST['submit'])) {
 	} else {
 		$csrf_value = 'TRUE';
 	}
-	$file = file_get_contents('https://raw.githubusercontent.com/mahtab2003/Xera/dev/app/config/config.php');
+	$file = file_get_contents('https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/app/config/config.php');
 	$data = str_replace('BASE_URL_VALUE', $base_url_value, $file);
 	$data = str_replace('COOKIE_PREFIX_VALUE', $cookie_prefix, $data);
 	$data = str_replace('CSRF_PROTECTION_MODE', $csrf_value, $data);
@@ -163,7 +163,7 @@ if (isset($_GET['step']) and $_GET['step'] == 1 and isset($_POST['submit'])) {
 		$database
 	);
 	if (!$mysqli) {
-		$_SESSION['msg'] = json_encode(['danger', 'Database connect cannot be establised.']);
+		$_SESSION['msg'] = json_encode(['danger', 'Database connection cannot be established.']);
 		header('location: ' . $base_url . 'install.php?step=2');
 	} else {
 		$sql = mysqli_query($mysqli, "CREATE TABLE `is_base` (`base_id` varchar(89) NOT NULL DEFAULT 'xera_base',`base_name` varchar(20) NOT NULL,`base_email` varchar(100) NOT NULL,`base_template` varchar(100) NOT NULL DEFAULT 'default', `base_fourm` varchar(100) NOT NULL,`base_status` varchar(8) NOT NULL, `base_rpp` int(10) NOT NULL DEFAULT '1'
@@ -304,7 +304,7 @@ if (isset($_GET['step']) and $_GET['step'] == 1 and isset($_POST['submit'])) {
 		$sql = mysqli_query($mysqli, "INSERT INTO `is_oauth`(`oauth_id`, `oauth_client`, `oauth_secret`, `oauth_endpoint`, `oauth_status`) VALUES ('github', 'client key', 'client key', 'https://api.github.com/user', 'inactive');");
 
 		if ($sql) {
-			$file = file_get_contents('https://raw.githubusercontent.com/mahtab2003/Xera/dev/app/config/database.php');
+			$file = file_get_contents('https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/app/config/database.php');
 			$data = str_replace('DB_HOSTNAME', $hostname, $file);
 			$data = str_replace('DB_USERNAME', $username, $data);
 			$data = str_replace('DB_PASSWORD', $password, $data);

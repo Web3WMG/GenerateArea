@@ -2,7 +2,7 @@
 
 if(!file_exists(APPPATH.'logs/install.json'))
 {
-	header('location: install.php');
+	echo '<script>window.location.replace("install.php");</script>';
 }
 elseif(file_exists(APPPATH.'logs/install.json') AND file_exists(APPPATH.'../install.php'))
 {
