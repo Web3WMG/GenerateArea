@@ -1,10 +1,10 @@
 <div align="center">
     <img src="assets/default/img/logo.png">
 </div>
-Watch Video https://www.youtube.com/watch?v=KOy8Ad6l8Ko
+Introduction Video https://www.youtube.com/watch?v=KOy8Ad6l8Ko
 
 ## 👀 What is GenerateArea?
-GenerateArea is a easy-to-use hosting account and support management system for MyOwnFreeHost. GenerateArea currently has a limited number of features which are listed below:
+GenerateArea is an easy-to-use hosting account and support management system for MyOwnFreeHost. GenerateArea currently has the features listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
 [![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
@@ -53,6 +53,7 @@ Here are some widely used SMTP services. They have free plans with some limitati
 > Mailgun seems to offer only a trial plan for a month, and without adding a credit card you are only authorized to send emails to 5 recipients. Therefore, you may want to choose another service.
 - [Mailjet](https://mailjet.com/).
 - [SendGrid](https://sendgrid.com/free/).
+- [Smtp2go](https://www.smtp2go.com/)
 - Gmail SMTP
 ### 🤔 Help
 If you require assistance, please proceed to [our forum](https://fourm.xera.eu.org/), where you can find the answers to many questions and also ask your own.  
