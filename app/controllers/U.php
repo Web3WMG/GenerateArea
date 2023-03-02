@@ -1425,7 +1425,7 @@ class U extends CI_Controller
 		{
 			if($this->input->post('create'))
 			{
-				$this->fv->set_rules('dname', $this->base->text('csr_code', 'label'), ['trim', 'required']);
+				$this->fv->set_rules('dname', $this->base->text('domain', 'table'), ['trim', 'required']);
 				if($this->grc->is_active())
 				{
 					if($this->grc->get_type() == "google")
@@ -1442,7 +1442,7 @@ class U extends CI_Controller
 					}
 					if($this->fv->run() === true)
 					{
-						$csr = $this->input->post('csr');
+						$csr = $this->input->post('dname');
 						if($this->grc->get_type() == "google")
 						{
 							$token = $this->input->post('g-recaptcha-response');
@@ -1500,7 +1500,7 @@ class U extends CI_Controller
 				{
 					if($this->fv->run() === true)
 					{
-						$csr = $this->input->post('csr');
+						$csr = $this->input->post('dname');
 						$res = $this->ssl->create_ssl($csr);
 						if(!is_bool($res))
 						{
