@@ -1,6 +1,7 @@
 <div align="center">
     <img src="assets/default/img/logo.png">
 </div>
+<hr>
 <div align="center">
     <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko"> <img src="LogoMakr.png"> </a>
 </div>
