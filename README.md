@@ -5,7 +5,7 @@
 <div align="center">
     <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko"> Introduction Video </a>
     |
-    <a href="https://www.youtube.com/watch?v=ZljtLlcCGOM"> Setup Video </a>
+    <a href="https://www.youtube.com/watch?v=ZljtLlcCGOM"> Installation Video </a>
 </div>
 
 ## 👀 What is GenerateArea?
