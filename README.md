@@ -4,7 +4,7 @@
 <hr>
 <div align="center">
     <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko"> <img src="LogoMakr.png"> </a>
-    <a href="https://www.youtube.com/watch?v=ZljtLlcCGOM"> <img src="LogoMakr.png"> </a>
+    <a href="https://www.youtube.com/watch?v=ZljtLlcCGOM"> <img src="LogoMakr-2bI4Pe.png"> </a>
 </div>
 
 ## 👀 What is GenerateArea?
