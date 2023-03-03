@@ -1,7 +1,9 @@
 <div align="center">
     <img src="assets/default/img/logo.png">
 </div>
-Introduction Video https://www.youtube.com/watch?v=KOy8Ad6l8Ko
+<div align="center">
+    <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko"> <img src="LogoMakr.png"> </a>
+</div>
 
 ## 👀 What is GenerateArea?
 GenerateArea is an easy-to-use hosting account and support management system for MyOwnFreeHost. GenerateArea currently has the features listed below:
