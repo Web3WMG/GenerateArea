@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/default/img/logo.png">
+    <img src="assets/default/img/garea_outline.png">
 </div>
 <hr>
 <div align="center">
