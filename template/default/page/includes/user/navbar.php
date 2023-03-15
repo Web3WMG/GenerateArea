@@ -19,7 +19,6 @@
 					<span class="avatar avatar-sm" style="background-image: url(<?= $this->user->get_avatar() ?>);"></span>
 					<div class="d-none d-xl-block ps-2">
 						<div><?= $this->user->get_name() ?></div>
-						<div class="mt-1 small text-muted"><?= $this->user->get_email() ?></div>
 					</div>
 				</a>
 				<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -40,8 +39,12 @@
 					<?php endif ?>">
 						<a class="nav-link" href="<?= base_url() ?>u/dashboard">
 							<span class="nav-link-icon d-md-none d-lg-inline-block">
-								<i class="fa fa-home"></i>
-							</span>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
+   <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+   <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
+</svg>				</span>
 							<span class="nav-link-title">
 								<?= $this->base->text('home', 'heading') ?>
 							</span>
@@ -52,8 +55,11 @@
 					<?php endif ?>">
 						<a class="nav-link" href="<?= base_url() ?>u/settings">
 							<span class="nav-link-icon d-md-none d-lg-inline-block">
-								<i class="fa fa-user"></i>
-							</span>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+   <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+</svg>							</span>
 							<span class="nav-link-title">
 								<?= $this->base->text('profile', 'heading') ?>
 							</span>
@@ -64,8 +70,15 @@
 					<?php endif ?>">
 						<a class="nav-link" href="<?= base_url() ?>u/accounts">
 							<span class="nav-link-icon d-md-none d-lg-inline-block">
-								<i class="fa fa-server"></i>
-							</span>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-server-2"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z"></path>
+   <path d="M3 12m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z"></path>
+   <path d="M7 8l0 .01"></path>
+   <path d="M7 16l0 .01"></path>
+   <path d="M11 8h6"></path>
+   <path d="M11 16h6"></path>
+</svg>							</span>
 							<span class="nav-link-title">
 								<?= $this->base->text('accounts', 'heading') ?>
 							</span>
@@ -77,8 +90,12 @@
 						<?php endif ?>">
 							<a class="nav-link" href="<?= base_url() ?>u/ssl">
 								<span class="nav-link-icon d-md-none d-lg-inline-block">
-									<i class="fa fa-shield-alt"></i>
-								</span>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z"></path>
+   <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"></path>
+   <path d="M8 11v-4a4 4 0 1 1 8 0v4"></path>
+</svg>								</span>
 								<span class="nav-link-title">
 									<?= $this->base->text('ssl_certificates', 'heading') ?>
 								</span>
@@ -90,8 +107,13 @@
 					<?php endif ?>">
 						<a class="nav-link" href="<?= base_url() ?>u/tickets">
 							<span class="nav-link-icon d-md-none d-lg-inline-block">
-								<i class="fa fa-bullhorn"></i>
-							</span>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message-chatbot"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4"></path>
+   <path d="M9.5 9h.01"></path>
+   <path d="M14.5 9h.01"></path>
+   <path d="M9.5 13a3.5 3.5 0 0 0 5 0"></path>
+</svg>							</span>
 							<span class="nav-link-title">
 								<?= $this->base->text('support_tickets', 'heading') ?>
 							</span>
@@ -100,8 +122,11 @@
 					<li class="nav-item">
 						<a class="nav-link" href="<?= $this->base->get_fourm() ?>">
 							<span class="nav-link-icon d-md-none d-lg-inline-block">
-								<i class="fa fa-book"></i>
-							</span>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10"></path>
+   <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2"></path>
+</svg>							</span>
 							<span class="nav-link-title">
 								<?= $this->base->text('community_forum', 'heading') ?>
 							</span>
@@ -112,8 +137,18 @@
 					<?php endif ?>">
 						<a class="nav-link dropdown-toggle" href="#navbar-extra" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false">
 							<span class="nav-link-icon d-md-none d-lg-inline-block">
-								<i class="fa fa-book"></i>
-							</span>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world-www" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M19.5 7a9 9 0 0 0 -7.5 -4a8.991 8.991 0 0 0 -7.484 4"></path>
+   <path d="M11.5 3a16.989 16.989 0 0 0 -1.826 4"></path>
+   <path d="M12.5 3a16.989 16.989 0 0 1 1.828 4"></path>
+   <path d="M19.5 17a9 9 0 0 1 -7.5 4a8.991 8.991 0 0 1 -7.484 -4"></path>
+   <path d="M11.5 21a16.989 16.989 0 0 1 -1.826 -4"></path>
+   <path d="M12.5 21a16.989 16.989 0 0 0 1.828 -4"></path>
+   <path d="M2 10l1 4l1.5 -4l1.5 4l1 -4"></path>
+   <path d="M17 10l1 4l1.5 -4l1.5 4l1 -4"></path>
+   <path d="M9.5 10l1 4l1.5 -4l1.5 4l1 -4"></path>
+</svg>			</span>
 							<span class="nav-link-title">
 								<?= $this->base->text('domain_lookup', 'heading') ?>
 							</span>
