@@ -61,7 +61,7 @@ class U extends CI_Controller
 					}
 					if($this->fv->run() === true)
 					{
-						$name = "AREA_" . random_int(100000, 999999);
+						$name = $this->input->post('email');
 						$email = $this->input->post('email');
 						$password = $this->input->post('password');
 						if($this->grc->get_type() == "google")
@@ -124,7 +124,7 @@ class U extends CI_Controller
 				{
 					if($this->fv->run() === true)
 					{
-						$name = "AREA_" . random_int(100000, 999999);
+						$name = $this->input->post('email');
 						$email = $this->input->post('email');
 						$password = $this->input->post('password');
 						if(!$this->user->is_register($email))
@@ -555,7 +555,23 @@ class U extends CI_Controller
 			redirect('u/login');
 		}
 	}
-
+	function qrcode()
+	{
+		if($this->user->is_logged())
+		{
+			$data['title'] = 'qrcode';
+			$data['active'] = 'qrcode';
+			
+			$this->load->view($this->base->get_template().'/page/includes/user/header', $data);
+			$this->load->view($this->base->get_template().'/page/includes/user/navbar');
+			$this->load->view($this->base->get_template().'/page/user/qrcode');
+			$this->load->view($this->base->get_template().'/page/includes/user/footer');
+		}
+		else
+		{
+			redirect('u/login');
+		}
+	}
 	function tickets()
 	{
 		if($this->user->is_logged())
@@ -1631,7 +1647,12 @@ class U extends CI_Controller
 	{
 		if($this->user->is_logged())
 		{
+			$data['title'] = 'upgrade_hosting';
+			$this->load->view($this->base->get_template().'/page/includes/user/header', $data);
+			$this->load->view($this->base->get_template().'/page/includes/user/navbar');			
 			$this->load->view($this->base->get_template().'/page/user/upgrade');
+
+			$this->load->view($this->base->get_template().'/page/includes/user/footer');
 		}
 		else
 		{
