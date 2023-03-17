@@ -61,7 +61,7 @@
 						<input type="text" name="fourm" class="form-control mb-2" value="<?= $this->base->get_fourm() ?>">
 					</div>
 					<div class="col-sm-6">
-						<label class="form-label">Host Status</label>
+						<label class="form-label">Matience Mode</label>
 						<select class="form-control mb-2" name="status">
 							<?php
 							if ($this->base->get_status() === 'active') :
@@ -217,16 +217,26 @@
 							?>
 								<option value="google" selected="true">Google reCAPTCHA</option>
 								<option value="human">hCaptcha</option>
+								<option value="cf-turnstile">Cloudflare Turnstile</option>
 								<option value="crypto">CryptoLoot</option>
 							<?php
 							elseif ($this->grc->get_type() === 'human') :
 							?>
 								<option value="google">Google reCAPTCHA</option>
 								<option value="human" selected="true">hCaptcha</option>
+								<option value="cf-turnstile">Cloudflare Turnstile</option>
+								<option value="crypto">CryptoLoot</option>
+							<?php
+							elseif ($this->grc->get_type() === 'cf-turnstile') :
+							?>
+								<option value="google">Google reCAPTCHA</option>
+								<option value="human">hCaptcha</option>
+								<option value="cf-turnstile" selected="true">Cloudflare Turnstile</option>
 								<option value="crypto">CryptoLoot</option>
 							<?php else : ?>
 								<option value="google">Google reCAPTCHA</option>
 								<option value="human">hCaptcha</option>
+								<option value="cf-turnstile">Cloudflare Turnstile</option>
 								<option value="crypto" selected="true">CryptoLoot</option>
 							<?php
 							endif;
