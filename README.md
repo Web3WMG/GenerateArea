@@ -29,7 +29,7 @@ GenerateArea is an easy-to-use hosting account and support management system for
 - Intergration With:
 	- MyOwnFreeHost
 	- Captcha support from Google reCAPTCHA, CryptoLoot, hCaptcha
-	- Integration for GoGetSSL, SitePro, Wayback Machine, SMTP
+	- Integration for GoGetSSL, Site.pro, Wayback Machine, SMTP
 - Update Manager
 - Multi-lingual
 
