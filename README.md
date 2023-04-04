@@ -1,7 +1,10 @@
+
 <div align="center">
     <img src="assets/default/img/garea_outline.png">
 </div>
+
 <hr>
+
 <div align="center">
 <b> Links: </b>
     <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko"> Introduction Video </a>
@@ -11,8 +14,11 @@
     <a href="https://www.byet.net/index.php?/topic/65550-powered-by-generatearea-badge"> Powered By Badge </a>
 </div>
 
+> **Warning**
+> GenerateArea is under active development but is currently very much alpha software, there may be stability or security issues and it is not recommended for use in active production environments yet!
 ## 👀 What is GenerateArea?
 GenerateArea is an easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of Xera. GenerateArea currently has the features listed below:
+
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
 [![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
