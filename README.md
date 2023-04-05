@@ -1,7 +1,11 @@
-
-<div align="center">
-    <img src="assets/default/img/garea_outline.png">
-</div>
+<h1 align="center">
+  <a href="https://area.generateapps.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenerateApps/GenerateArea/fbf8bc449995e924c63820d6be06a14016ffe9c6/assets/default/img/default-monochrome-white.svg">
+      <img alt="FOSSBilling logo" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/fbf8bc449995e924c63820d6be06a14016ffe9c6/assets/default/img/default-monochrome-black.svg" height="100">
+    </picture>
+  </a>
+</h1>
 
 <hr>
 
