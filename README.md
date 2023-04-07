@@ -1,28 +1,26 @@
 <h1 align="center">
   <a href="https://area.generateapps.org/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenerateApps/GenerateArea/fbf8bc449995e924c63820d6be06a14016ffe9c6/assets/default/img/default-monochrome-white.svg">
-      <img alt="FOSSBilling logo" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/fbf8bc449995e924c63820d6be06a14016ffe9c6/assets/default/img/default-monochrome-black.svg" height="100">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/default-monochrome-white.svg">
+      <img alt="GenerateArea" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/default-monochrome-black.svg" height="100">
     </picture>
   </a>
 </h1>
 
-<hr>
-
 <div align="center">
-<b> Links: </b>
-    <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko"> Introduction Video </a>
+    <b>Links:</b>
+    <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko">Introduction Video </a>
     |
-    <a href="https://www.youtube.com/watch?v=ZljtLlcCGOM"> Installation Video </a>
+    <a href="https://www.youtube.com/watch?v=ZljtLlcCGOM">Installation Video </a>
     |
-    <a href="https://www.byet.net/index.php?/topic/65550-powered-by-generatearea-badge"> Powered By Badge </a>
+    <a href="https://www.byet.net/index.php?/topic/65550-powered-by-generatearea-badge">Powered By Badge </a>
 </div>
 
 > **Warning**
-> GenerateArea is under active development but is currently very much alpha software, there may be stability or security issues and it is not recommended for use in active production environments yet!
-## 👀 What is GenerateArea?
-GenerateArea is an easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of Xera. GenerateArea currently has the features listed below:
+> GenerateArea is actively developed but considered to be in the alpha development stage, stability or security issues may be encountered and as such its usage in active production environments cannot be fully endorsed yet!
 
+## 👀 What is GenerateArea?
+GenerateArea is an easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera). GenerateArea currently has the features listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
 [![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
@@ -78,5 +76,5 @@ If you require assistance, please proceed to [our forum](https://fourm.xera.eu.o
 You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/issues/new) if you have discovered a bug or have an issue, although the forum is still the preferred way, especially for feature requests. In any way, please ensure your topic has not been previously discussed, and if it has contribute to that discussion instead of making a new one when you can.
 
 ## ©️ Copyright
-This build is created and maintained by [ChippyTech](https://github.com/chippytech). Code released under [the GPL-2.0 license](LICENSE).
+This build is created and maintained by [ChippyTech](https://github.com/chippytech). Code released under [the GPL-2.0 license](LICENSE).  
 Fork of [Xera](https://github.com/mahtab2003/Xera).
