@@ -72,7 +72,7 @@ Here are some widely used SMTP services. They have free plans with some limitati
 - [Smtp2go](https://www.smtp2go.com/)
 - Gmail SMTP
 ### 🤔 Help
-If you require assistance, please proceed to [our forum](https://fourm.xera.eu.org/), where you can find the answers to many questions and also ask your own.  
+If you require assistance, please proceed to [our Discord server](https://discord.gg/n94HFXyA7Z), where you can find the answers to many questions and also ask your own.  
 You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/issues/new) if you have discovered a bug or have an issue, although the forum is still the preferred way, especially for feature requests. In any way, please ensure your topic has not been previously discussed, and if it has contribute to that discussion instead of making a new one when you can.
 
 ## ©️ Copyright
