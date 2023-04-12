@@ -97,7 +97,7 @@
 						</div>
 						<div class="col">
 							<div class="font-weight-medium">
-								About Xera
+								About GenerateArea
 							</div>
 							<div class="text-muted">
 								<a href="<?= base_url() ?>e/about" class="text-muted" target="_blank">View here.</a>
@@ -142,7 +142,7 @@
 								Documentation
 							</div>
 							<div class="text-muted">
-								<a href="https://fourm.xera.eu.org/t/documentation" class="text-muted" target="_blank">Read here.</a>
+								<a href="https://github.com/GenerateApps/GenerateArea/blob/dev/README.md" class="text-muted" target="_blank">Read here.</a>
 							</div>
 						</div>
 					</div>
@@ -163,7 +163,7 @@
 								Need Help?
 							</div>
 							<div class="text-muted">
-								<a href="mailto:mahtabhassan159@gmail.com" class="text-muted" target="_blank">Email here.</a>
+								<a href="https://discord.gg/n94HFXyA7Z" class="text-muted" target="_blank">Join our server.</a>
 							</div>
 						</div>
 					</div>
@@ -184,7 +184,7 @@
 								Contribute
 							</div>
 							<div class="text-muted">
-								<a href="https://github.com/mahtab2003/Xera/" class="text-muted" target="_blank">Check here.</a>
+								<a href="https://github.com/GenerateApps/GenerateArea/" class="text-muted" target="_blank">Check here.</a>
 							</div>
 						</div>
 					</div>
@@ -202,10 +202,10 @@
 						</div>
 						<div class="col">
 							<div class="font-weight-medium">
-								Like Xera?
+								Like GenerateArea?
 							</div>
 							<div class="text-muted">
-								<a href="https://xera.eu.org/DONATE.md" class="text-muted" target="_blank">Donate here.</a>
+								<a href="https://github.com/GenerateApps/GenerateArea/" class="text-muted" target="_blank">Star repository.</a>
 							</div>
 						</div>
 					</div>
