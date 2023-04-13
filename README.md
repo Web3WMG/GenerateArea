@@ -9,11 +9,11 @@
 
 <div align="center">
     <b>Links:</b>
-    <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko">Introduction Video </a>
+    <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko">Introduction Video</a>
     |
-    <a href="https://www.youtube.com/watch?v=ZljtLlcCGOM">Installation Video </a>
+    <a href="https://www.youtube.com/watch?v=ZljtLlcCGOM">Installation Video</a>
     |
-    <a href="https://www.byet.net/index.php?/topic/65550-powered-by-generatearea-badge">Powered By Badge </a>
+    <a href="https://www.byet.net/index.php?/topic/65550-powered-by-generatearea-badge">Powered By Badge</a>
 </div>
 
 > **Warning**
