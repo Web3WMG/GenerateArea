@@ -74,7 +74,7 @@ Here are some widely used SMTP services. They have free plans with some limitati
 - Gmail SMTP
 ### Help
 If you require assistance, please proceed to [our Discord server](https://discord.gg/n94HFXyA7Z), where you can find the answers to many questions and also ask your own.  
-You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/issues/new) if you have discovered a bug or have an issue, although the server is still the preferred way, especially for feature requests. In any way, please ensure your topic has not been previously discussed, and if it has contribute to that discussion instead of making a new one when you can.
+You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/issues/new) if you have discovered a bug or have an issue, although the server is still the preferred way, especially for feature requests. In any way, please ensure your topic has not been previously discussed, and if it has contribute to that discussion instead of making a new one when you can. You can also submit feature requests [here](https://forms.gle/YgUobtoeMSLTxUc16).
 
 ## Copyright
 This build is created and maintained by [ChippyTech](https://github.com/chippytech) and its contrubitors. Code released under [the GPL-2.0 license](LICENSE).  
