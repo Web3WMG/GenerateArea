@@ -20,7 +20,7 @@
 > GenerateArea is actively developed but considered to be in the alpha development stage, stability or security issues may be encountered and as such its usage in active production environments cannot be fully endorsed yet!
 
 ## 👀 What is GenerateArea?
-GenerateArea is an easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera). GenerateArea currently has the features listed below:
+GenerateArea is an easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera), a discontinued client area.  It offers a range of features and functionality, including easy account management & support ticket creation and is open source and free to use, making it an accessible option for those looking for an alternative to other hosting account and support management systems. GenerateArea currently has the features listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
 [![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
@@ -47,7 +47,7 @@ GenerateArea is an easy-to-use hosting account and support management system for
 Your server needs to meet the following minimum requirements to run GenerateArea:
 - PHP 7.2 or above. (PHP 8.0 & 8.1 is not supported currently)
 - MySQL 5.7 or above.
-- A valid, trusted SSL certificate.
+- A valid, trusted SSL certificate from a certifcate authortity like [Let's Encrypt](https://letsencrypt.org).
 
 ### Installation 
 The installation of GenerateArea is much easier than you think!
@@ -76,5 +76,6 @@ If you require assistance, please proceed to [our Discord server](https://discor
 You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/issues/new) if you have discovered a bug or have an issue, although the server is still the preferred way, especially for feature requests. In any way, please ensure your topic has not been previously discussed, and if it has contribute to that discussion instead of making a new one when you can.
 
 ## Copyright
-This build is created and maintained by [ChippyTech](https://github.com/chippytech). Code released under [the GPL-2.0 license](LICENSE).  
+This build is created and maintained by [ChippyTech](https://github.com/chippytech) and its contrubitors. Code released under [the GPL-2.0 license](LICENSE).  
 Fork of [Xera](https://github.com/mahtab2003/Xera).
+
