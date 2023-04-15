@@ -4,6 +4,7 @@
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/default-monochrome-white.svg">
       <img alt="GenerateArea" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/default-monochrome-black.svg" height="100">
     </picture>
+ <img alt="ClientAreaMadeSimple" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/Untitled drawing (7).png">
   </a>
 </h1>
 
