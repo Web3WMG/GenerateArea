@@ -21,7 +21,7 @@
 > GenerateArea is actively developed but considered to be in the alpha development stage, stability or security issues may be encountered and as such its usage in active production environments cannot be fully endorsed yet!
 
 ## 👀 What is GenerateArea?
-GenerateArea is an easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera), a discontinued client area.  It offers a range of features and functionality, including easy account management & support ticket creation and is open source and free to use, making it an accessible option for those looking for an alternative to other hosting account and support management systems. GenerateArea currently has the features listed below:
+GenerateArea is an free, open source & easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera), a discontinued client area.  It offers a range of features and functionality, including easy account management & support ticket creation and is open source and free to use, making it an accessible option for those looking for an alternative to other hosting account and support management systems. GenerateArea currently has the features listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
 [![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
