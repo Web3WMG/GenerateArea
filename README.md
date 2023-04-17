@@ -37,7 +37,7 @@ GenerateArea is an free, open source & easy-to-use hosting account and support m
 - Administrative access
 - Intergration with:
 	- MyOwnFreeHost
-	- Captcha support from Google reCAPTCHA, CryptoLoot, hCaptcha
+	- Captcha support from Google reCAPTCHA, CryptoLoot, hCaptcha, Cloudflare Turnstile
 	- Integration for GoGetSSL, Site.pro, Wayback Machine, SMTP
 - Update manager
 - Multi-lingual
