@@ -20,7 +20,7 @@
 > **Warning**
 > GenerateArea is actively developed but considered to be in the alpha development stage, stability or security issues may be encountered and as such its usage in active production environments cannot be fully endorsed yet!
 
-## 👀 What is GenerateArea?
+## What is GenerateArea?
 GenerateArea is an free, open source & easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera), a discontinued client area.  It offers a range of features and functionality, including easy account management & support ticket creation and is open source and free to use, making it an accessible option for those looking for an alternative to other hosting account and support management systems. GenerateArea currently has the features listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
@@ -62,7 +62,8 @@ The installation of GenerateArea is much easier than you think!
 - Replace the logo and favicon located in ```assets/default/img/``` with your own.
 - Setup SMTP (see below for some services you can use).
 - All done! 
-
+### iFastNet Coupon Code
+You can get a 29% discount on any iFastNet paid product by using GAREA29!
 ### SMTP
 Here are some widely used SMTP services. They have free plans with some limitations, most importantly though, they are compatible with GenerateArea.
 - [Mailgun](https://www.mailgun.com/). 
