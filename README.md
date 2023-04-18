@@ -71,6 +71,7 @@ Here are some widely used SMTP services. They have free plans with some limitati
 - [Mailjet](https://mailjet.com/).
 - [SendGrid](https://sendgrid.com/free/).
 - [Smtp2go](https://www.smtp2go.com/)
+- [Sendinblue](https://www.sendinblue.com/)
 - Gmail SMTP
 ### Help
 If you require assistance, please proceed to [our Discord server](https://discord.gg/n94HFXyA7Z), where you can find the answers to many questions and also ask your own.  
