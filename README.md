@@ -41,7 +41,9 @@ GenerateArea is an free, open source & easy-to-use hosting account and support m
 	- Integration for GoGetSSL, Site.pro, Wayback Machine, SMTP
 - Update manager
 - Multi-lingual
-
+ ### Examples of free web hosts that use GenerateArea
+- https://app.fluxum.eu.org/ (Fluxum)
+- https://app.generatehost.com/ (GenerateHost)
 ## Getting started
 
 ### Requirements
