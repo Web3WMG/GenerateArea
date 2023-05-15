@@ -44,6 +44,7 @@ GenerateArea is an free, open source & easy-to-use hosting account and support m
  ### Examples of free web hosts that use GenerateArea
 - https://app.fluxum.eu.org/ (Fluxum)
 - https://app.generatehost.com/ (GenerateHost)
+- https://my.beeshosting.eu.org/ (Bees Hosting)
 ## Getting started
 
 ### Requirements
