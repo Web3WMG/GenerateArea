@@ -48,7 +48,7 @@
 							<?php if($info['user_status'] !== 'active'): ?>
 								<a href="?active=true" class="btn btn-success">Activate</a>
 							<?php endif ?>
-							<a href="?login=true" class="btn btn-primary">Login</a>
+							<a href="?login=true" target="_blank" class="btn btn-primary">Login</a>
 						</div>
 					</div>
 				</div>

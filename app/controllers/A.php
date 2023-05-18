@@ -1152,7 +1152,7 @@ class A extends CI_Controller
 				if($res)
 				{
 					$this->session->set_flashdata('msg', json_encode([1, 'Logged in successfully.']));
-					redirect("a/");
+					redirect("u/");
 				}
 				else
 				{
