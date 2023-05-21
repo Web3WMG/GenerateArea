@@ -56,6 +56,9 @@ The installation of GenerateArea is much easier than you think!
 - Setup SMTP (see below for some services you can use).
 - All done! 
 
+### iFastNet Coupon Code
+You can get a 29% discount on any iFastNet paid product by using GAREA29!
+
 ### Links
 - [Introduction Video](https://www.youtube.com/watch?v=KOy8Ad6l8Ko)
 - [Installation Video](https://www.youtube.com/watch?v=ZljtLlcCGOM)
