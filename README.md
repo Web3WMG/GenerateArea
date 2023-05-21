@@ -4,24 +4,15 @@
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/default-monochrome-white.svg">
       <img alt="GenerateArea" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/default-monochrome-black.svg" height="100">
     </picture>
- <img alt="ClientAreaMadeSimple" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/Untitled drawing (7).png">
   </a>
 </h1>
 
-<div align="center">
-    <b>Links:</b>
-    <a href="https://www.youtube.com/watch?v=KOy8Ad6l8Ko">Introduction Video</a>
-    |
-    <a href="https://www.youtube.com/watch?v=ZljtLlcCGOM">Installation Video</a>
-    |
-    <a href="https://www.byet.net/index.php?/topic/65550-powered-by-generatearea-badge">Powered By Badge</a>
-</div>
 
 > **Warning**
 > GenerateArea is actively developed but considered to be in the alpha development stage, stability or security issues may be encountered and as such its usage in active production environments cannot be fully endorsed yet!
 
 ## What is GenerateArea?
-GenerateArea is an free, open source & easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera), a discontinued client area.  It offers a range of features and functionality, including easy account management & support ticket creation and is open source and free to use, making it an accessible option for those looking for an alternative to other hosting account and support management systems. GenerateArea currently has the features listed below:
+GenerateArea is an free, open source & easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera), a discontinued client area. It currently has the features listed below:
 
 [![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
 [![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
@@ -48,7 +39,7 @@ GenerateArea is an free, open source & easy-to-use hosting account and support m
 
 ### Requirements
 Your server needs to meet the following minimum requirements to run GenerateArea:
-- PHP 7.2 or above. (PHP 8.0 & 8.1 is not supported currently)
+- PHP 7.2 or above. (PHP 8.0, 8.1 & 8.2 is not supported currently)
 - MySQL 5.7 or above.
 - A valid, trusted SSL certificate from a certifcate authortity like [Let's Encrypt](https://letsencrypt.org).
 
@@ -64,8 +55,12 @@ The installation of GenerateArea is much easier than you think!
 - Replace the logo and favicon located in ```assets/default/img/``` with your own.
 - Setup SMTP (see below for some services you can use).
 - All done! 
-### iFastNet Coupon Code
-You can get a 29% discount on any iFastNet paid product by using GAREA29!
+
+### Links
+- [Introduction Video](https://www.youtube.com/watch?v=KOy8Ad6l8Ko)
+- [Installation Video](https://www.youtube.com/watch?v=ZljtLlcCGOM)
+- [Badge](https://www.byet.net/index.php?/topic/65550-powered-by-generatearea-badge)
+
 ### SMTP
 Here are some widely used SMTP services. They have free plans with some limitations, most importantly though, they are compatible with GenerateArea.
 - [Mailgun](https://www.mailgun.com/). 
@@ -82,5 +77,5 @@ You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/i
 
 ## Copyright
 This build is created and maintained by [ChippyTech](https://github.com/chippytech) and its contrubitors. Code released under [the GPL-2.0 license](LICENSE).  
-Fork of [Xera](https://github.com/mahtab2003/Xera).
+Fork of the client area [Xera](https://github.com/mahtab2003/Xera).
 
