@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://generateapps.org/area/">
-      <img alt="GenerateArea" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/GenerateArea logo.png" height="100">
+      <img alt="GenerateArea" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/GenerateArea logo.png" height="200">
   </a>
 </h1>
 
