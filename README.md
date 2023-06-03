@@ -1,9 +1,6 @@
 <h1 align="center">
   <a href="https://generateapps.org/area/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/default-monochrome-white.svg">
-      <img alt="GenerateArea" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/default-monochrome-black.svg" height="100">
-    </picture>
+      <img alt="GenerateArea" src="https://raw.githubusercontent.com/GenerateApps/GenerateArea/dev/assets/default/img/GenerateArea logo.png" height="100">
   </a>
 </h1>
 
