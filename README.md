@@ -11,18 +11,18 @@
 ## What is GenerateArea?
 GenerateArea is an free, open source & easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera), a discontinued client area. It currently has the features listed below:
 
-[![AppVeyor](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
-[![AppVeyor](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/mahtab2003/Xera/releases/latest)
-![AppVeyor](https://img.shields.io/badge/Build-Passed-brightgreen)
-![AppVeyor](https://img.shields.io/badge/Interface-Tabler-lightgreen)
-![AppVeyor](https://img.shields.io/badge/Development-In_Progress-inactive)
-![AppVeyor](https://img.shields.io/badge/Dependencies-PHP,_MySQL,_OpenSSL,_cUrl-red)
+[![Licence](https://img.shields.io/badge/Licence-GPL_2.0-orange)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/GenerateApps/GenerateArea/releases/latest)
+![Build](https://img.shields.io/badge/Build-Passed-brightgreen)
+![Interface](https://img.shields.io/badge/Interface-Tabler-lightgreen)
+![Development](https://img.shields.io/badge/Development-In_Progress-inactive)
+![Dependencies](https://img.shields.io/badge/Dependencies-PHP,_MySQL,_OpenSSL,_cUrl-red)
 
 ### Features
 - User management
 - Theme management
-- Support management
-- Administrative access
+- Support tickets
+- Administrative backend
 - Intergration with:
 	- MyOwnFreeHost
 	- Captcha support from Google reCAPTCHA, CryptoLoot, hCaptcha, Cloudflare Turnstile
@@ -76,6 +76,6 @@ If you require assistance, please proceed to [our Discord server](https://discor
 You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/issues/new) if you have discovered a bug or have an issue, although the server is still the preferred way, especially for feature requests. In any way, please ensure your topic has not been previously discussed, and if it has contribute to that discussion instead of making a new one when you can. You can also submit feature requests [here](https://forms.gle/YgUobtoeMSLTxUc16).
 
 ## Copyright
-This build is created and maintained by [ChippyTech](https://github.com/chippytech) and its contrubitors. Code released under [the GPL-2.0 license](LICENSE).  
+This build is created and maintained by [ChippyTech](https://github.com/chippytech) and its contributors. Code released under [the GPL-2.0 license](LICENSE).  
 Fork of the client area [Xera](https://github.com/mahtab2003/Xera).
 
