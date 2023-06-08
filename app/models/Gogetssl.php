@@ -22,7 +22,7 @@ class Gogetssl extends CI_Model
         );
  
         // Generate a new private (and public) key pair
-        $privatekey_data = openssl_pkey_new(array('private_key_type'=>OPENSSL_KEYTYPE_EC,'curve_name'=>secp384r1) );
+        $privatekey_data = openssl_pkey_new(array('private_key_type'=>OPENSSL_KEYTYPE_EC,'curve_name'=>'secp384r1') );
         $csr_data = openssl_csr_new($subject, $privatekey_data, array('digest_alg'=>'sha384') );
 
         openssl_csr_export($csr_data, $csr);
