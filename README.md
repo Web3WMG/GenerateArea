@@ -6,7 +6,8 @@
 
 
 > **Note**
-> We are planning to create a new MOFH client area.
+> GenerateArea will soon be deprecated. Please transition to using GeneratePanel, when it's avaliable for an improved experience.
+
 
 ## What is GenerateArea?
 GenerateArea is an free, open source & easy-to-use hosting account and support management system for MyOwnFreeHost. It is a fork of [Xera](https://github.com/mahtab2003/Xera), a discontinued client area. It currently has the features listed below:
