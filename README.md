@@ -16,7 +16,7 @@ GenerateArea is an free, open source & easy-to-use hosting account and support m
 [![Version](https://img.shields.io/badge/Version-v0.1.1-informational)](https://github.com/GenerateApps/GenerateArea/releases/latest)
 ![Build](https://img.shields.io/badge/Build-Passed-brightgreen)
 ![Interface](https://img.shields.io/badge/Interface-Tabler-lightgreen)
-![Development](https://img.shields.io/badge/Development-In_Progress-inactive)
+![Development](https://img.shields.io/badge/Development-Decrepated_Soon-inactive)
 ![Dependencies](https://img.shields.io/badge/Dependencies-PHP,_MySQL,_OpenSSL,_cUrl-red)
 
 ### Features
