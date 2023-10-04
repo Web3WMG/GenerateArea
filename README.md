@@ -77,6 +77,6 @@ If you require assistance, please proceed to [our Discord server](https://discor
 You can also [open an issue here](https://github.com/GenerateApps/GenerateArea/issues/new) if you have discovered a bug or have an issue, although the server is still the preferred way, especially for feature requests. In any way, please ensure your topic has not been previously discussed, and if it has contribute to that discussion instead of making a new one when you can. You can also submit feature requests [here](https://forms.gle/YgUobtoeMSLTxUc16).
 
 ## Copyright
-This build is created and maintained by [ChippyTech](https://github.com/chippytech) and its contributors. Code released under [the GPL-2.0 license](LICENSE).  
+This build is created and maintained by [3WM](https://github.com/web3wmg) and its contributors. Code released under [the GPL-2.0 license](LICENSE).  
 Fork of the client area [Xera](https://github.com/mahtab2003/Xera).
 
